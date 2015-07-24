@@ -4,7 +4,7 @@ Grab a copy of the [NYC Citibike `stations.json`](https://member.citibikenyc.com
 
 The list of snapshots is here: [https://citibike-station-history.s3.amazonaws.com/snapshots.json](https://citibike-station-history.s3.amazonaws.com/snapshots.json)
 
-This runs on Heroku under the scheduler addon. Needless to say.
+This runs on Heroku under the scheduler addon.
 
 To run this, you should (TK TK TK check this!) need Ruby 2.2.1 (I use rbenv), `bundle install`, make an S3 bucket and fill in `.env`, then `bundle exec rake download`. There is no web component (yet!)
 
